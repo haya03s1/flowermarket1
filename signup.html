@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Flower Market - Sign Up</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  </head>
+<body>
+<header>
+  <div class="logo">
+    <img src="images/logo.png" alt="Logo">
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="shop.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="icons">
+    <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+    <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+    <a href="login.html" id="user-link"><i class="fa fa-user"></i></a>
+  </div>
+</header>
+
+<main class="login-main">
+  <form class="login-form" id="signup-form" autocomplete="off" action="db.php" method="POST"> 
+    <h2 class="section-title">Create Account</h2>
+    
+    <label for="signup-username">Username</label>
+    <input type="text" id="signup-username" name="username" required />
+    
+    <label for="signup-email">Email</label>
+    <input type="email" id="signup-email" name="email" required />
+
+    <label for="signup-password">Password</label>
+    <input type="password" id="signup-password" name="password" required />
+    
+    <label for="signup-confirm-password">Confirm Password</label>
+    <input type="password" id="signup-confirm-password" name="confirm_password" required />
+
+    <span id="signup-error" class="form-error"></span>
+    
+    <button class="btn-block" type="submit" name="signup_btn" >Sign Up</button>
+  </form>
+  
+  <p class="form-text">
+    Already have an account? <a href="login.html">Login here</a>
+  </p>
+</main>
+
+<footer>
+  <p>© 2025 Flower Market. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flower Market - Checkout</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+<body>
+<header>
+  <div class="logo">
+    <img src="images/logo.png" alt="Logo">
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="shop.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="icons">
+    <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+    <a href="cart.html" class="active"><i class="fa fa-shopping-cart"></i></a>
+    <a href="login.html" id="user-link"><i class="fa fa-user"></i></a>
+  </div>
+</header>
+
+<main class="checkout-section">
+  <div class="checkout-card">
+    <h2 class="section-title">Review Your Order</h2>
+    
+    <div class="checkout-items" id="checkout-items-container">
+      <!-- Items will be added dynamically with JavaScript -->
+    </div>
+    
+    <hr class="checkout-divider">
+    
+    <div class="checkout-total">
+      <div class="total-row">
+        <span>Subtotal:</span>
+        <span id="checkout-subtotal">0 SAR</span>
+      </div>
+      <div class="total-row">
+        <span>Shipping:</span>
+        <span id="checkout-shipping">0 SAR</span>
+      </div>
+      <div class="total-row">
+        <span>Tax (15%):</span>
+        <span id="checkout-tax">0 SAR</span>
+      </div>
+      <div class="total-row final">
+        <strong>Total:</strong>
+        <strong id="checkout-total">0 SAR</strong>
+      </div>
+    </div>
+    
+    <p class="checkout-note">Please review your items before proceeding to payment.</p>
+    <a href="payment.html" class="btn">Proceed to Payment</a>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Flower Market. All rights reserved.</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

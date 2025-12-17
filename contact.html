@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Flower Market - Contact</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+<body>
+
+<header>
+  <div class="logo">
+    <img src="images/logo.png" alt="Logo">
+  </div>
+  <nav class="navbar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="shop.html">Products</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="icons">
+    <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+    <a href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+    <a href="login.html" id="user-link"><i class="fa fa-user"></i></a>
+  </div>
+</header>
+
+<main class="contact-section">
+  <h2 class="section-title">Contact Us</h2>
+  <form class="contact-form" autocomplete="off">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" required>
+
+    <label for="message">Your Message</label>
+    <textarea id="message" rows="5" required></textarea>
+
+    <button class="btn-block" style="width: 100%">Send Message</button>
+  </form>
+
+  <div class="map" style="margin-top:50px;">
+    <iframe title="Our location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d157834.94105525906!2d46.58747899657327!3d24.773412568130183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1d001a4df30f%3A0xecad572e6fa7d94d!2sFloward!5e0!3m2!1sen!2ssa!4v1762877267881!5m2!1sen!2ssa" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Flower Market. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
