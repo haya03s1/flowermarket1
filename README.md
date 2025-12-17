@@ -7,13 +7,13 @@ The system provides a smooth shopping experience where users can explore product
 Users can create personal accounts to access additional features such as order tracking and saved preferences.
 
 Enviornments Used
-	•	PHP – Backend 
-	•	MySQL – Database management
-	•	HTML – Structure
-	•	CSS – Styling and layout
-	•	JavaScript – Interactivity and dynamic behavior
+		PHP – Backend 
+		MySQL – Database management
+		HTML – Structure
+		CSS – Styling and layout
+		JavaScript – Interactivity and dynamic behavior
 
 Team Members
-	•	Haya Almuslim – 223034961
-	•	Walaa Alsaeed  – 223005344
-	•	Salha Almarri - 223042287
+		Haya Almuslim – 223034961
+		Walaa Alsaeed  – 223005344
+		Salha Almarri - 223042287
